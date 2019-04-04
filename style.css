@@ -1,0 +1,93 @@
+body {
+    font-family: "Lato", sans-serif;
+    text-align: center;  
+    margin: 0;
+}
+h1, h3 {
+   font-family: 'Elsie', cursive;  
+    }
+
+.title a {    
+    font-family: 'Elsie', cursive;     
+    text-align: center;   
+    color: white;
+    position: fixed;
+    background-color: #356335;
+    font-size: 46px;
+    border-top: 5px solid lightcoral;
+    width: 100%;
+    display: block;
+    margin: auto;
+    z-index: 1;
+}
+.description {
+    color: white;   
+    font-size: 30px;
+    font-weight: bold;
+}
+a {
+   text-decoration: none; 
+   color: green;
+}
+a.button:hover, a:hover {
+    color: lightcoral;
+}
+.headerwrap {
+    padding: 0px;
+    display: inline-block;
+    width: 100%;
+    background-image: url("images/green3.jpg");
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    position: relative;
+    text-align: center;
+    }
+
+main {    
+    background-color: #356335;
+    color: white;
+    }
+main a {
+    color: white;
+   
+}
+.admin {
+    background-color: white;
+    color: #356335;
+}
+
+.content-column {
+    margin-top: 30px;
+    width: 50%;      
+    display: inline-block;   
+    box-sizing: border-box;
+    padding: 0 10px;
+    background-color: white;    
+    color: #356335;
+    border: 2px solid lightcoral;
+}
+
+.sidebar-column {
+    display: inline-block;
+    width: 25%;
+    box-sizing: border-box;  
+    vertical-align: top;
+    text-align: center;
+    padding-top: 50px;  
+   
+   }
+
+
+/** BREAKPOINT */
+
+@media only screen and (max-width: 600px) {   
+    .content-column, .sidebar-column {
+        width: 100%;
+    }    
+}
